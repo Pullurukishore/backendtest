@@ -3,12 +3,13 @@
   "type": "module",
   "version": "1.0.0",
   "description": "Build a full-stack eCommerce web application.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node backend/server.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "build": "react-scripts build"
+    "build": "npx react-scripts build",
+    "test": "react-scripts test"
   },
   "repository": {
     "type": "git",
